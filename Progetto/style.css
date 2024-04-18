@@ -90,10 +90,9 @@ body{
 .pro-features .button{}
 .pro-features .button .btn {
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	margin-top: 8px;
 	display: inline-block;
-	float: left;
 	font-size: 13px;
 	width: 100%;
 	text-transform: capitalize;
@@ -800,9 +799,6 @@ body{
 }
 .schedule .single-schedule a i{
 	margin-left:10px;
-}
-.schedule .single-schedule .time-sidual{
-	
 }
 .schedule .single-schedule .time-sidual{
 	overflow:hidden;
