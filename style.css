@@ -122,9 +122,16 @@ body{
 .get-pro:hover{
 	
 }
-.frame {
-	
+
+iframe{
+	border-style:ridge;
+	border-radius: 0.6em;
+	border-color: #1a76d1;
+	margin-top: 0.3em; 
+	width: 300px;
+	height: 280px;	
 }
+
 #scrollUp {
 	bottom: 15px;
 	right: 15px;
