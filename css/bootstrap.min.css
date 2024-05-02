@@ -36,6 +36,17 @@
     --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
+.rettangoloDottore{
+    background-color: #1A76D1; 
+    display: flex; 
+    border-radius: 0.7em;
+    transition: transform 0.3s ease;
+    margin-top: 2em
+}
+.rettangoloDottore:hover{
+    transform: translateY(-10px) ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3)
+}
 @media print {
     *,
     ::after,
@@ -668,10 +679,24 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 1em;
     margin-right: auto;
     margin-left: auto
 }
-
+.cerchioImmagine{
+    width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+  overflow: hidden; 
+  border: 2px solid black; 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.immagine {
+    width: 100%;
+    display: block
+}
 @media (min-width:576px) {
     .container {
         max-width: 540px
