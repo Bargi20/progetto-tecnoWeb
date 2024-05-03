@@ -65,3 +65,25 @@
     object-fit: cover; /* Assicura che l'immagine mantenga le proporzioni e si adatti al cerchio */
     object-position: center; /* Assicura che l'immagine sia centrata sia orizzontalmente che verticalmente */
 }
+
+/* Stile per l'immagine rotonda */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Stile per il titolo del dottore */
+.doctor-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Stile per la descrizione del dottore */
+.doctor-description {
+    text-align: center;
+    margin-top: 20px;
+}
