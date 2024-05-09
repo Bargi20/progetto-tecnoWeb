@@ -36,6 +36,54 @@
     --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
+.rettangoloDottore{
+    background-color: #1A76D1; 
+    display: flex; 
+    border-radius: 0.6em;
+    transition: transform 0.3s ease;
+    margin-top: 2em;
+}
+.rettangoloDottore:hover{
+    transform: translateY(-5px) ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+/* styles.css */
+
+.risposta {
+    background-color: #f7f7f7; /* Colore simile al bianco */
+    padding: 20px;
+    border-radius: 0.6em; /* Raggio degli angoli */
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1A76D1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+
 @media print {
     *,
     ::after,
@@ -155,7 +203,8 @@ h4,
 h5,
 h6 {
     margin-top: 0;
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    color: white;
 }
 
 p {
@@ -668,10 +717,24 @@ pre code {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 1em;
     margin-right: auto;
     margin-left: auto
 }
-
+.cerchioImmagine{
+    width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+  overflow: hidden; 
+  border: 2px solid black; 
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.immagine {
+    width: 100%;
+    display: block
+}
 @media (min-width:576px) {
     .container {
         max-width: 540px
