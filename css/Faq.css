@@ -4,7 +4,6 @@
     display: flex; 
     transition: transform 0.3s ease;
     color: #ffffff;
-    border-radius: 0.7em;
 }
 .Risposta {
     background-color: #f7f7f7; /* Colore simile al bianco */

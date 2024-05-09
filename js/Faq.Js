@@ -15,4 +15,3 @@ domande.forEach(function(domanda) {
         }
     });
 });
-
